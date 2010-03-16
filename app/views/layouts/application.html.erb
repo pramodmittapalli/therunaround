@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
- <title>The Run Around</title>
+ <title>LootLo</title>
   <%= stylesheet_link_tag 'trr', :media => 'all' %>
   <%= javascript_include_tag :defaults %>
   <%= javascript_include_tag 'http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php' %>
@@ -11,7 +11,7 @@
 <body>
   <div id="header">
     <div class="header_content">
-      <%= link_to(image_tag('runaround_logo.gif'), root_url, {:class => 'title'}) %>
+      <%= link_to(image_tag('lootlo_logo.gif'), root_url, {:class => 'title'}) %>
     <!-- login line -->
     <%- if facebook_user -%>
       <div id="header-profilepic">
@@ -44,7 +44,7 @@
   <div class="body_content">
     <%= yield %>
   </div>
-  <div class="footer_stuff">This is an awesome running app.</div>
+  <div class="footer_stuff">Xperience the power of collective buying with LootLo.</div>
   <%= javascript_tag "window.api_key = '#{Facebooker.api_key}';" %>
   <%= javascript_tag "window.xd_receiver_location = '#{ENV['XD_RECEIVER_LOCATION']}';" %>
   <%= javascript_tag "window.facebook_authenticate_location = '#{ENV['FACEBOOK_AUTHENTICATE_LOCATION']}';" %>

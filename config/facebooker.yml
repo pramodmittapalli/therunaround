@@ -7,21 +7,21 @@
 # This should only be necessary until the final version of the new profile is released.
 
 development:
-  api_key: ba6343dd6c93d93c9b4823ef8697faf5
-  secret_key: a5bd4ba662ba58a49147382a87e11aa2
-  canvas_page_name: trr
-  callback_url: 
+  api_key: 31a6653fd31a253e9ef77e4c2e2548eb
+  secret_key: 2a02c155c90ccab00ad38589367992b5
+  canvas_page_name: mylootlo
+  callback_url: http://lootlo.heroku.com/fb/connect/
   pretty_errors: true
   set_asset_host_to_callback_url: false
 
 test:
-  api_key: ba6343dd6c93d93c9b4823ef8697faf5
-  secret_key: a5bd4ba662ba58a49147382a87e11aa2
-  canvas_page_name: trr
-  callback_url:
+  api_key: 31a6653fd31a253e9ef77e4c2e2548eb
+  secret_key: 2a02c155c90ccab00ad38589367992b5
+  canvas_page_name: mylootlo
+  callback_url: http://lootlo.heroku.com/fb/connect/
 
 production:
-  api_key: 
-  secret_key: 
-  canvas_page_name: 
-  callback_url:  
+  api_key: 31a6653fd31a253e9ef77e4c2e2548eb 
+  secret_key: 2a02c155c90ccab00ad38589367992b5 
+  canvas_page_name: mylootlo
+  callback_url: http://lootlo.heroku.com/fb/connect/  
