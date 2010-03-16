@@ -26,4 +26,4 @@ production:
   secret_key: 2a02c155c90ccab00ad38589367992b5 
   canvas_page_name: mylootlo
   callback_url: http://lootlo.heroku.com/fb/connect/
-  set_asset_host_to_callback_url: true  
+  set_asset_host_to_callback_url: false  
