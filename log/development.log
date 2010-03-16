@@ -762,3 +762,39 @@ Rendering welcome/index
 Rendered shared/_fbconnect_button (0.1ms)
 Rendered welcome/_not_logged_in_index (2.6ms)
 Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-03-16 17:51:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered shared/_fbconnect_button (0.5ms)
+Rendered welcome/_not_logged_in_index (20.7ms)
+Completed in 63ms (View: 40, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-03-16 17:54:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered shared/_fbconnect_button (0.4ms)
+Rendered welcome/_not_logged_in_index (16.6ms)
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-03-16 17:59:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered shared/_fbconnect_button (0.4ms)
+Rendered welcome/_not_logged_in_index (16.6ms)
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-03-16 18:01:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Rendered shared/_fbconnect_button (0.4ms)
+Rendered welcome/_not_logged_in_index (16.5ms)
+Completed in 37ms (View: 35, DB: 0) | 200 OK [http://localhost/]
