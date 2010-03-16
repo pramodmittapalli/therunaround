@@ -7,13 +7,13 @@
 
 <div class="clearfix">
   <div class="bluebox">
-    <h3>Where did you run recently?</h3>
+    <h3>What's your Wish today?</h3>
 
     <% form_tag do %>
       <table class="add_run_table">
         <tr>
           <td class="editor_key">
-            <%= label_tag(:route, 'Where did you go?', {:id => 'label_route'}) %>
+            <%= label_tag(:route, 'What do you want to buy?', {:id => 'label_route'}) %>
           </td>
           <td class="editor_value">
             <%= text_field_tag :route, '', :size => 20, :class => 'inputtext' %>
@@ -21,14 +21,14 @@
         </tr>
         <tr>
           <td class="editor_key">
-            <%= label_tag(:miles, 'Number of Miles', {:id => 'label_miles'}) %>
+            <%= label_tag(:miles, 'At what price', {:id => 'label_miles'}) %>
           </td>
           <td class="editor_value">
             <%= text_field_tag :miles, '', :size => 20, :class => 'inputtext' %>
           </td>
         </tr>
         <tr>
-          <td class="editor_key"><%= label_tag(:date, 'Date (MM/DD/YYYY)') %></td>
+          <td class="editor_key"><%= label_tag(:date, 'When (MM/DD/YYYY)') %></td>
           <td class="editor_value">
             <%= text_field_tag :date_month, '', :size => 2, :maxlength => 2, :class => 'inputtext datefield' %>
             /<%= text_field_tag :date_day, '', :size => 2, :maxlength => 2, :class => 'inputtext datefield' %>
@@ -52,7 +52,7 @@
 
   <% if current_user.runs.any? -%>
     <div id="showruns" class="bluebox">
-      <h3>Recent Runs</h3>
+      <h3>Recent Wishes</h3>
       <table>
         <tr>
           <th>Date</th>
