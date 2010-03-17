@@ -7,22 +7,24 @@
 # This should only be necessary until the final version of the new profile is released.
 
 development:
-  api_key: 31a6653fd31a253e9ef77e4c2e2548eb
-  secret_key: 2a02c155c90ccab00ad38589367992b5
-  canvas_page_name: mylootlo
-  callback_url: http://lootlo.heroku.com/fb/connect/
+  api_key: 751ebd93759ca0eb1b3228720e0b0821
+  secret_key: 856e3b1a37777246d51e0d257c3c8381
+  canvas_page_name: bakvaas
+  callback_url: http://lootlo.heroku.com
   pretty_errors: true
-  set_asset_host_to_callback_url: false
+  set_asset_host_to_callback_url: true
 
 test:
-  api_key: 31a6653fd31a253e9ef77e4c2e2548eb
-  secret_key: 2a02c155c90ccab00ad38589367992b5
-  canvas_page_name: mylootlo
-  callback_url: http://lootlo.heroku.com/fb/connect/
-  set_asset_host_to_callback_url: false
+  api_key: 751ebd93759ca0eb1b3228720e0b0821
+  secret_key: 856e3b1a37777246d51e0d257c3c8381
+  canvas_page_name: bakvaas
+  callback_url: http://lootlo.heroku.com
+  pretty_errors: true
+  set_asset_host_to_callback_url: true
 production:
-  api_key: 31a6653fd31a253e9ef77e4c2e2548eb 
-  secret_key: 2a02c155c90ccab00ad38589367992b5 
-  canvas_page_name: mylootlo
-  callback_url: http://lootlo.heroku.com/fb/connect/
-  set_asset_host_to_callback_url: false  
+  api_key: 751ebd93759ca0eb1b3228720e0b0821 
+  secret_key: 856e3b1a37777246d51e0d257c3c8381 
+  canvas_page_name: bakvaas
+  callback_url: http://lootlo.heroku.com/
+  pretty_errors: true
+  set_asset_host_to_callback_url: true  
